@@ -1,18 +1,45 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /* margin: 0 30px; */
+}
 .banner-section{
     display: flex;
+    
 }
 .banner-text-part{
     width: 50%;
+    padding: 0 100px 0 10px;
+}
+.banner-header{
+    border-left: 4px solid royalblue;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding-left: 10px;
 }
 .banner-img-part{
-    width: 50%;
+    width: 65%;
 }
 .banner-img-part img{
     width: 50%;
 }
-.banner-header{
-    font-size: 50px;
-}
 #banner-header-color{
-    color:olivedrab
+    color:olivedrab;
+}
+.banner-para{
+    margin-bottom: 30px;
+}
+.explore-btn{
+    text-decoration: none;
+    color: white;
+    background-color: royalblue;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+.banner-para-2{
+    margin-top: 30px;
 }
