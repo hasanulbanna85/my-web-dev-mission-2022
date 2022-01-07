@@ -1,0 +1,18 @@
+.banner-section{
+    display: flex;
+}
+.banner-text-part{
+    width: 50%;
+}
+.banner-img-part{
+    width: 50%;
+}
+.banner-img-part img{
+    width: 50%;
+}
+.banner-header{
+    font-size: 50px;
+}
+#banner-header-color{
+    color:olivedrab
+}
