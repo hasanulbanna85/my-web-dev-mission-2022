@@ -1,8 +1,10 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
-    /* margin: 0 30px; */
+    margin: 0 30px;
 }
+
+/* bannar start */
 .banner-section{
     display: flex;
     margin-top: 50px;
@@ -16,11 +18,17 @@ body{
     border-left: 4px solid royalblue;
 }
 h1{
-    font-size: 50px;
+    font-size: 60px;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto Slab', serif;
     margin: 0;
     padding-left: 10px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 30px;
 }
 .banner-img-part{
     width: 65%;
@@ -45,7 +53,9 @@ h1{
 .banner-para-2{
     margin-top: 30px;
 }
+/* bannar end */
 
+/* cards start */
 .my-mission{
     margin-bottom: 120px;
 }
@@ -54,12 +64,6 @@ h1{
 }
 .mis-vis-goal{
     display: flex;
-}
-h2{
-    font-size: 40px;
-}
-h3{
-    font-size: 28px;
 }
 p{
     font-size: 20px;
@@ -83,10 +87,23 @@ p{
 #my-mission-cards-3{
     background-color: rgb(248, 218, 248);
 }
+/* cards end */
 
+/* Develop Without Limits part start */
 .dev-without-lim{
     display: flex;
 }
-.dev-without-lim img{
-    width: 70%;
+.dev-without-lim-img{
+    width: 40%;
 }
+.dev-without-lim img{
+    width: 90%;
+}
+.dev-without-lim-second-part{
+    width: 60%;
+    padding-top: 40px;
+}
+.dev-without-lim-para{
+    margin-bottom: 35px;
+}
+/* Develop Without Limits part end */
