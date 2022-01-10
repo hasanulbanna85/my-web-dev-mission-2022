@@ -37,14 +37,14 @@ h3{
     width: 50%;
 }
 .banner-header-color{
-    color:olivedrab;
+    color: cadetblue;
 }
 .banner-para{
     margin-bottom: 30px;
 }
 .explore-btn{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     background-color: royalblue;
     padding: 13px 35px;
@@ -66,7 +66,7 @@ h3{
     display: flex;
 }
 p{
-    font-size: 20px;
+    font-size: 18px;
 }
 .my-mission-cards{
     text-align: justify;
@@ -112,6 +112,9 @@ p{
 /* Develop Without Limits part end */
 
 /* Know our Global Community start */
+.kno-our-glob-section{
+    margin-bottom: 120px;
+}
 .kno-our-glob{
     display: flex;
 }
@@ -126,3 +129,50 @@ p{
     width: 90%;
 }
 /* Know our Global Community end */
+
+/* account and subscription start */
+.subscription-section{
+    display: flex;
+    margin-bottom: 120px;
+}
+.subscription-text-part{
+    width: 50%;
+}
+.subcription-form-containar{
+    width: 40%;
+}
+.subscription-form-part{
+    width: 80%;
+    background-color: hsl(0, 0%, 93%);
+    border-radius: 20px;
+    /* margin: 0 30px; */
+    padding: 30px 0 60px 60px;
+}
+#mail{
+    font-size: 18px;
+    margin: 5px;
+    width: 250px;
+    height: 25px;
+}
+#pass{
+    font-size: 18px;
+    margin: 5px 0;
+    width: 250px;
+    height: 25px;
+}
+#submit-btn{
+    font-size: 16px;
+    margin-top: 10px;
+    width: 120px;
+    height: 35px;
+}
+/* account and subscription end */
+
+/* footer */
+.footer-part{
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 20px 0
+}
+/* footer */
