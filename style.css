@@ -1,5 +1,4 @@
 body{
-    font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     margin: 0 30px;
 }
@@ -8,27 +7,29 @@ body{
 .banner-section{
     display: flex;
     margin-top: 50px;
-    margin-bottom: 120px;
+    margin-bottom: 140px;
 }
 .banner-text-part{
     width: 50%;
     padding: 0 100px 0 10px;
 }
 .banner-header{
-    border-left: 4px solid royalblue;
+    border-left: 4px solid cadetblue;
 }
 h1{
     font-size: 60px;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Raleway', sans-serif;
     margin: 0;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 h2{
     font-size: 48px;
 }
 h3{
     font-size: 30px;
+}
+p{
+    font-size: 18px;
 }
 .banner-img-part{
     width: 65%;
@@ -42,11 +43,11 @@ h3{
 .banner-para{
     margin-bottom: 30px;
 }
-.explore-btn{
+.button-style{
     text-decoration: none;
     font-size: 18px;
     color: white;
-    background-color: royalblue;
+    background-color: rgb(87, 128, 252);
     padding: 13px 35px;
     border-radius: 5px;
 }
@@ -57,16 +58,13 @@ h3{
 
 /* cards start */
 .my-mission{
-    margin-bottom: 120px;
+    margin-bottom: 140px;
 }
 .my-mission h2{
     text-align: center;
 }
 .mis-vis-goal{
     display: flex;
-}
-p{
-    font-size: 18px;
 }
 .my-mission-cards{
     text-align: justify;
@@ -91,7 +89,7 @@ p{
 
 /* Develop Without Limits part start */
 .dev-wo-lim{
-    margin-bottom: 120px;
+    margin-bottom: 140px;
 }
 .dev-without-lim{
     display: flex;
@@ -108,12 +106,13 @@ p{
 }
 .dev-without-lim-para{
     margin-bottom: 35px;
+    margin-right: 50px;
 }
 /* Develop Without Limits part end */
 
 /* Know our Global Community start */
 .kno-our-glob-section{
-    margin-bottom: 120px;
+    margin-bottom: 140px;
 }
 .kno-our-glob{
     display: flex;
@@ -133,10 +132,7 @@ p{
 /* account and subscription start */
 .subscription-section{
     display: flex;
-    margin-bottom: 120px;
-}
-.subscription-text-part{
-    width: 50%;
+    margin-bottom: 140px;
 }
 .subcription-form-containar{
     width: 40%;
@@ -145,8 +141,7 @@ p{
     width: 80%;
     background-color: hsl(0, 0%, 93%);
     border-radius: 20px;
-    /* margin: 0 30px; */
-    padding: 30px 0 60px 60px;
+    padding: 60px 0 90px 60px;
 }
 #mail{
     font-size: 18px;
@@ -162,9 +157,16 @@ p{
 }
 #submit-btn{
     font-size: 16px;
-    margin-top: 10px;
+    margin: 10px 0;
     width: 120px;
     height: 35px;
+}
+.acc-create{
+    text-decoration: none;
+    font-size: 18px;
+}
+.subscription-text-part{
+    width: 50%;
 }
 /* account and subscription end */
 
